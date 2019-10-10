@@ -52,7 +52,7 @@
       name: openshift_control_plane
       tasks_from: generate_session_secrets.yml
 
-- name: Configure masters
+- name: Configure masters (Example change)
   hosts: oo_masters_to_config
   any_errors_fatal: true
   pre_tasks:
